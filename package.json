@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/Babak-Gholamzadeh/deeply-object-assign/issues"
   },
-  "homepage": "https://github.com/Babak-Gholamzadeh/deeply-object-assign#readme"
+  "homepage": "https://github.com/Babak-Gholamzadeh/deeply-object-assign#readme",
+  "dependencies": {
+    "realtypeof": "^1.1.0"
+  }
 }
