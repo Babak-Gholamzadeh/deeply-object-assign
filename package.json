@@ -4,7 +4,7 @@
   "description": "Acts like Object.assign method but recursively",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec mocha"
   },
   "keywords": [
     "object",
@@ -15,5 +15,10 @@
     "obj"
   ],
   "author": "Babak Gholamzadeh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4"
+  }
 }
