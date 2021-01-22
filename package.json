@@ -1,6 +1,6 @@
 {
   "name": "deeply-object-assign",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Acts like Object.assign method but recursively",
   "main": "index.js",
   "scripts": {
