@@ -17,9 +17,9 @@ const deeplyObjectAssign = require('deeply-object-assign');
 const result = deeplyObjectAssign(
   {a: { x: 3, y: { m: 4} } },
   {a: { x: 4, y: { m: 5, n: 6 } } },
-  {a: { z: 7 }},
-  {a: { x: 6, y: { n: 8 } },
+  {a: { z: 7 } },
+  {a: { x: 6, y: { n: 8 } } },
 );
-// result: {a: { x: 6, y: { m: 5, n: 8 }, z: 7 }
+// result: {a: { x: 6, y: { m: 5, n: 8 }, z: 7 } }
 ```
 
